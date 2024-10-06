@@ -4,6 +4,11 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
+axios.get('https://dashboard.render.com/web/srv-cs11ntjtq21c73ekgqa0')
+  .then((response) => {
+    // handle response
+  });
+
 // Import the GIF if you have it
 import DogSpinningGif from './assets/dog-spinning.gif'; // Adjust the path as needed
 
