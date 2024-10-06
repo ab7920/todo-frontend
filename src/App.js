@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-axios.get('https://dashboard.render.com/web/srv-cs11ntjtq21c73ekgqa0')
+axios.get('https://todo-backend-t4m9.onrender.com')
   .then((response) => {
     // handle response
   });
